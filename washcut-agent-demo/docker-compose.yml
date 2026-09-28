@@ -1,0 +1,31 @@
+services:
+  washcut-api:
+    build: .
+    ports:
+      - "8787:8787"
+    environment:
+      PORT: "8787"
+      PUBLIC_API_BASE_URL: "http://127.0.0.1:8787"
+      MEDIA_SIGNING_SECRET: "${MEDIA_SIGNING_SECRET:-replace-before-production-32-characters}"
+      WORKER_CONCURRENCY: "1"
+      AUTO_VIDEO_WORKER_CONCURRENCY: "${AUTO_VIDEO_WORKER_CONCURRENCY:-1}"
+      AUTO_VIDEO_ASSET_CONCURRENCY: "${AUTO_VIDEO_ASSET_CONCURRENCY:-2}"
+      AUTO_VIDEO_VISUAL_MAX_RETRIES: "${AUTO_VIDEO_VISUAL_MAX_RETRIES:-2}"
+      DEMO_MODE: "${DEMO_MODE:-true}"
+      QWEN_ASR_BASE_URL: "${QWEN_ASR_BASE_URL:-}"
+      QWEN_ALIGN_BASE_URL: "${QWEN_ALIGN_BASE_URL:-}"
+      QWEN_ASR_API_KEY: "${QWEN_ASR_API_KEY:-}"
+      QWEN_ASR_MODEL: "${QWEN_ASR_MODEL:-Qwen/Qwen3-ASR-1.7B}"
+      QWEN_ALIGN_MODEL: "${QWEN_ALIGN_MODEL:-Qwen/Qwen3-ForcedAligner-0.6B}"
+      QWEN_ASR_TIMEOUT_MS: "${QWEN_ASR_TIMEOUT_MS:-600000}"
+      QWEN_ASR_MAX_RETRIES: "${QWEN_ASR_MAX_RETRIES:-2}"
+    volumes:
+      - washcut-data:/data
+    healthcheck:
+      test: ["CMD", "node", "-e", "fetch('http://127.0.0.1:8787/api/health').then(r=>{if(!r.ok)process.exit(1)})"]
+      interval: 15s
+      timeout: 5s
+      retries: 5
+
+volumes:
+  washcut-data:

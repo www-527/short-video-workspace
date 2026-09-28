@@ -1,0 +1,11 @@
+{
+  "runSeparately": true,
+  "scenarios": [
+    ["wc-edge-01-silent"],
+    ["wc-edge-02-av-conflict"],
+    ["wc-edge-03-low-volume"],
+    ["wc-edge-04-duplicate-a", "wc-edge-04-duplicate-b"],
+    ["wc-edge-05-long-speech"],
+    ["wc-edge-06-unsupported"]
+  ]
+}

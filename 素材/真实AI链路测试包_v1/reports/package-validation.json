@@ -1,0 +1,212 @@
+﻿{
+    "schemaVersion":  "1.0",
+    "validatedAt":  "2026-09-01T10:48:09.7980983+08:00",
+    "status":  "passed",
+    "packageVersion":  "washcut-real-e2e-v1",
+    "counts":  {
+                   "totalManifestClips":  18,
+                   "mainClips":  11,
+                   "edgeClips":  7,
+                   "validMediaFiles":  17,
+                   "sourceCopies":  9,
+                   "wavFiles":  12
+               },
+    "invariants":  {
+                       "exactMainUploadPermutation":  true,
+                       "duplicateFixturesByteIdentical":  true,
+                       "unsupportedFixtureRejectedByFfprobe":  true,
+                       "allFilesInternalTestOnly":  true
+                   },
+    "issues":  [
+
+               ],
+    "media":  [
+                  {
+                      "clipId":  "wc-main-01-hook",
+                      "durationMs":  4000,
+                      "videoCodec":  "h264",
+                      "width":  1080,
+                      "height":  1920,
+                      "frameRate":  "30/1",
+                      "audioCodec":  "aac",
+                      "audioSampleRate":  48000,
+                      "sha256":  "2D320A7C6A286E94DE4FD14D7E5B07EDD780B65F3C68B3AB8C86571A5FA50476"
+                  },
+                  {
+                      "clipId":  "wc-main-02-problem",
+                      "durationMs":  5767,
+                      "videoCodec":  "h264",
+                      "width":  1080,
+                      "height":  1920,
+                      "frameRate":  "30/1",
+                      "audioCodec":  "aac",
+                      "audioSampleRate":  48000,
+                      "sha256":  "978C34B4B8B7356667C467E54F1DCF9D67E311786418F1401ABD24BBB072A506"
+                  },
+                  {
+                      "clipId":  "wc-main-03-service",
+                      "durationMs":  6233,
+                      "videoCodec":  "h264",
+                      "width":  1080,
+                      "height":  1920,
+                      "frameRate":  "30/1",
+                      "audioCodec":  "aac",
+                      "audioSampleRate":  48000,
+                      "sha256":  "CDF15AF245F3AFF31FC6A8F83905D6376749F6D2A25CB310A0A37AD6953A2AE2"
+                  },
+                  {
+                      "clipId":  "wc-main-04-foam",
+                      "durationMs":  4234,
+                      "videoCodec":  "h264",
+                      "width":  1080,
+                      "height":  1920,
+                      "frameRate":  "30/1",
+                      "audioCodec":  "aac",
+                      "audioSampleRate":  48000,
+                      "sha256":  "3ADCEBD2069C62D5A62468DDCB9522DB0D5CD82DF22A419D3D586B780D55B430"
+                  },
+                  {
+                      "clipId":  "wc-main-05-rinse",
+                      "durationMs":  4133,
+                      "videoCodec":  "h264",
+                      "width":  1080,
+                      "height":  1920,
+                      "frameRate":  "30/1",
+                      "audioCodec":  "aac",
+                      "audioSampleRate":  48000,
+                      "sha256":  "9851302CB450E3D3B9314FB76672D4F76EE6A23B0ED88053E28EE4379940CCD9"
+                  },
+                  {
+                      "clipId":  "wc-main-06-wheel",
+                      "durationMs":  4000,
+                      "videoCodec":  "h264",
+                      "width":  1080,
+                      "height":  1920,
+                      "frameRate":  "30/1",
+                      "audioCodec":  "aac",
+                      "audioSampleRate":  48000,
+                      "sha256":  "CF2A223B469853BF25E0DE81FCF3B8CF7A398F513198F8864338D28D312BC513"
+                  },
+                  {
+                      "clipId":  "wc-main-07-interior",
+                      "durationMs":  4245,
+                      "videoCodec":  "h264",
+                      "width":  1080,
+                      "height":  1920,
+                      "frameRate":  "30/1",
+                      "audioCodec":  "aac",
+                      "audioSampleRate":  48000,
+                      "sha256":  "D7D3E9711384B75D8EFA3BF45143047367E4E50F82AF783022FC2002C7B3B8C9"
+                  },
+                  {
+                      "clipId":  "wc-main-08-result",
+                      "durationMs":  4234,
+                      "videoCodec":  "h264",
+                      "width":  1080,
+                      "height":  1920,
+                      "frameRate":  "30/1",
+                      "audioCodec":  "aac",
+                      "audioSampleRate":  48000,
+                      "sha256":  "C9F49AA6E897AAB71DAAB9F8C74D2D52D67759A68486E6E4C28A9512D2590451"
+                  },
+                  {
+                      "clipId":  "wc-main-09-transition",
+                      "durationMs":  4033,
+                      "videoCodec":  "h264",
+                      "width":  1080,
+                      "height":  1920,
+                      "frameRate":  "30/1",
+                      "audioCodec":  "aac",
+                      "audioSampleRate":  48000,
+                      "sha256":  "44814FAAD40EE4174F4826DE2BE25A4144E939AF84EAF8979C780A6F0C1DE451"
+                  },
+                  {
+                      "clipId":  "wc-main-10-offer",
+                      "durationMs":  7267,
+                      "videoCodec":  "h264",
+                      "width":  1080,
+                      "height":  1920,
+                      "frameRate":  "30/1",
+                      "audioCodec":  "aac",
+                      "audioSampleRate":  48000,
+                      "sha256":  "A41C0922BAEFD11ED5A9E02250F84B8FFA49413EADA0EF2C3FCF845B4E4E8B77"
+                  },
+                  {
+                      "clipId":  "wc-main-11-cta",
+                      "durationMs":  4633,
+                      "videoCodec":  "h264",
+                      "width":  1080,
+                      "height":  1920,
+                      "frameRate":  "30/1",
+                      "audioCodec":  "aac",
+                      "audioSampleRate":  48000,
+                      "sha256":  "DA7F6D6F15308FF736ABB4F3768D0101E88F374B2A107C369862AC71CF5AC922"
+                  },
+                  {
+                      "clipId":  "wc-edge-01-silent",
+                      "durationMs":  6000,
+                      "videoCodec":  "h264",
+                      "width":  1080,
+                      "height":  1920,
+                      "frameRate":  "30/1",
+                      "audioCodec":  null,
+                      "audioSampleRate":  null,
+                      "sha256":  "0EB9A92626B0F1FA8221891A7909121E5FA2DFCD7D99C342839E2A8856E605CD"
+                  },
+                  {
+                      "clipId":  "wc-edge-02-av-conflict",
+                      "durationMs":  4133,
+                      "videoCodec":  "h264",
+                      "width":  1080,
+                      "height":  1920,
+                      "frameRate":  "30/1",
+                      "audioCodec":  "aac",
+                      "audioSampleRate":  48000,
+                      "sha256":  "88C5DC5E8E44FA395D3F576674329EB9C1A62F7709813ECD065E4A5A50906AEE"
+                  },
+                  {
+                      "clipId":  "wc-edge-03-low-volume",
+                      "durationMs":  4000,
+                      "videoCodec":  "h264",
+                      "width":  1080,
+                      "height":  1920,
+                      "frameRate":  "30/1",
+                      "audioCodec":  "aac",
+                      "audioSampleRate":  48000,
+                      "sha256":  "931185C163B58C84ABB9A0306E12A9BC34D7497ECCF644FF8443AFF915C443B9"
+                  },
+                  {
+                      "clipId":  "wc-edge-04-duplicate-a",
+                      "durationMs":  4234,
+                      "videoCodec":  "h264",
+                      "width":  1080,
+                      "height":  1920,
+                      "frameRate":  "30/1",
+                      "audioCodec":  "aac",
+                      "audioSampleRate":  48000,
+                      "sha256":  "3ADCEBD2069C62D5A62468DDCB9522DB0D5CD82DF22A419D3D586B780D55B430"
+                  },
+                  {
+                      "clipId":  "wc-edge-04-duplicate-b",
+                      "durationMs":  4234,
+                      "videoCodec":  "h264",
+                      "width":  1080,
+                      "height":  1920,
+                      "frameRate":  "30/1",
+                      "audioCodec":  "aac",
+                      "audioSampleRate":  48000,
+                      "sha256":  "3ADCEBD2069C62D5A62468DDCB9522DB0D5CD82DF22A419D3D586B780D55B430"
+                  },
+                  {
+                      "clipId":  "wc-edge-05-long-speech",
+                      "durationMs":  9934,
+                      "videoCodec":  "h264",
+                      "width":  1080,
+                      "height":  1920,
+                      "frameRate":  "30/1",
+                      "audioCodec":  "aac",
+                      "audioSampleRate":  48000,
+                      "sha256":  "8CF87F8CD2E86D4E5E08A650319B9E7FED4EE5C4172DDFB989B2A98970D5B729"
+                  }
+              ]
+}

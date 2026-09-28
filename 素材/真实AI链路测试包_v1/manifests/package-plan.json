@@ -1,0 +1,221 @@
+{
+  "schemaVersion": "1.0",
+  "packageVersion": "washcut-real-e2e-v1",
+  "createdAt": "2026-09-01T00:00:00+08:00",
+  "licenseReviewedAt": "2026-09-01",
+  "testOnly": true,
+  "publishable": false,
+  "voice": "男-真诚青年.mp3",
+  "sources": [
+    {
+      "key": "interior",
+      "fileName": "06_内饰吸尘清洁_Pexels.mp4",
+      "sourcePageUrl": "https://www.pexels.com/video/a-man-cleaning-the-inside-of-a-car-4822916/",
+      "sourceTitle": "A Man Cleaning The Inside Of A Car",
+      "sourceAuthor": "Gustavo Fring",
+      "sourceSha256": "F80CF8ABBEA79FF85B5506BC1962B9D6004A06C724A3653D99AE83975AF9EEAC",
+      "containsFace": true,
+      "containsPlate": false,
+      "containsTrademark": true
+    },
+    {
+      "key": "white-polish",
+      "fileName": "07_白车机械抛光_Pexels.mp4",
+      "sourcePageUrl": "https://www.pexels.com/video/person-doing-car-polish-on-white-car-4822552/",
+      "sourceTitle": "Person Doing Car Polish on White Car",
+      "sourceAuthor": "Gustavo Fring",
+      "sourceSha256": "3066193675973F83C92B7CA70EBD7D6E2A6F6F66B972085ADC077A5A1BF92ACE",
+      "containsFace": false,
+      "containsPlate": false,
+      "containsTrademark": false
+    },
+    {
+      "key": "black-polish",
+      "fileName": "08_黑车专业抛光_Pexels.mp4",
+      "sourcePageUrl": "https://www.pexels.com/video/polishing-a-car-6161632/",
+      "sourceTitle": "Polishing a Car",
+      "sourceAuthor": "Pavel Danilyuk",
+      "sourceSha256": "D6FE3E91E2C63E48A50587F05EDA25C78BE00ED52A9CC0174BF551084977A382",
+      "containsFace": false,
+      "containsPlate": false,
+      "containsTrademark": false
+    },
+    {
+      "key": "wide-foam",
+      "fileName": "10_泡沫冲洗_Pexels.mp4",
+      "sourcePageUrl": "https://www.pexels.com/video/person-washing-a-vehicle-4243807/",
+      "sourceTitle": "Person Washing A Vehicle",
+      "sourceAuthor": "Dimitar Germanov",
+      "sourceSha256": "9EA3C423DE467D094E00D4662B044A86E460B6561545BBEA0275F7A3566F1072",
+      "containsFace": false,
+      "containsPlate": true,
+      "containsTrademark": true
+    },
+    {
+      "key": "foam",
+      "fileName": "11_竖屏_泡沫喷洗_Pexels.mp4",
+      "sourcePageUrl": "https://www.pexels.com/video/woman-washing-a-car-6873499/",
+      "sourceTitle": "Woman Washing a Car",
+      "sourceAuthor": "Tima Miroshnichenko",
+      "sourceSha256": "9CBD7B773F84C7740B816BD43BAFD17C984B79EE480AF29B8E17F24C9DB3A2CF",
+      "containsFace": true,
+      "containsPlate": false,
+      "containsTrademark": false
+    },
+    {
+      "key": "pov",
+      "fileName": "12_竖屏_车内洗车视角_Pexels.mp4",
+      "sourcePageUrl": "https://www.pexels.com/video/man-doing-a-car-wash-4863265/",
+      "sourceTitle": "Man Doing a Car Wash",
+      "sourceAuthor": "Kaboompics.com",
+      "sourceSha256": "3359631B2A4762B49AE19E713E7E152474A152F0804C4535C27F512C37E504A0",
+      "containsFace": false,
+      "containsPlate": false,
+      "containsTrademark": true
+    },
+    {
+      "key": "rinse",
+      "fileName": "13_竖屏_白车高压冲洗_Pexels.mp4",
+      "sourcePageUrl": "https://www.pexels.com/video/man-pressure-washing-a-white-car-6872072/",
+      "sourceTitle": "Man Pressure Washing a White Car",
+      "sourceAuthor": "Tima Miroshnichenko",
+      "sourceSha256": "68A3C1E76CA2B480C6F7E6794D00583EA656058723B390C4715219AD24C42FCA",
+      "containsFace": true,
+      "containsPlate": false,
+      "containsTrademark": true
+    },
+    {
+      "key": "glass",
+      "fileName": "14_竖屏_玻璃精细擦拭_Pexels.mp4",
+      "sourcePageUrl": "https://www.pexels.com/video/man-cleaning-windscreen-8469669/",
+      "sourceTitle": "Man Cleaning Windscreen",
+      "sourceAuthor": "Anastasia Shuraeva",
+      "sourceSha256": "0B993AB08BAA12DC1225574FE1736AADE5CB70AE937D3C41E729F5313F35EE17",
+      "containsFace": true,
+      "containsPlate": false,
+      "containsTrademark": false
+    },
+    {
+      "key": "wheel",
+      "fileName": "15_竖屏_轮毂刷洗_Pexels.mp4",
+      "sourcePageUrl": "https://www.pexels.com/video/man-cleaning-the-tires-6873496/",
+      "sourceTitle": "Man Cleaning the Tires",
+      "sourceAuthor": "Tima Miroshnichenko",
+      "sourceSha256": "E5F04EE3F5D4E2F6FF1050CE73DA2C9AE5A5C13F168FBBDBB0FDCE1E094F7D97",
+      "containsFace": true,
+      "containsPlate": false,
+      "containsTrademark": true
+    }
+  ],
+  "mainClips": [
+    {
+      "clipId": "wc-main-01-hook",
+      "sourceKey": "foam",
+      "startSeconds": 0.4,
+      "expectedMarketingRole": "hook",
+      "expectedVisualSummary": "竖屏洗车工位内，强水雾喷向车身形成视觉开场",
+      "ttsText": "你的车多久没有彻底洗过了？",
+      "expectedAsrKeywords": ["你的车", "多久", "彻底洗过"]
+    },
+    {
+      "clipId": "wc-main-02-problem",
+      "sourceKey": "wheel",
+      "startSeconds": 0.5,
+      "expectedMarketingRole": "problem",
+      "expectedVisualSummary": "洗车人员蹲下逐处刷洗沾有泡沫的轮毂缝隙",
+      "ttsText": "车身泥点和轮毂缝隙，普通冲水很难清理干净。",
+      "expectedAsrKeywords": ["车身泥点", "轮毂缝隙", "清理干净"]
+    },
+    {
+      "clipId": "wc-main-03-service",
+      "sourceKey": "rinse",
+      "startSeconds": 0.3,
+      "expectedMarketingRole": "service",
+      "expectedVisualSummary": "专业洗车工位内工作人员操作水枪清洗整车",
+      "ttsText": "标准精洗，从预洗、冲刷到细节清洁一步完成。",
+      "expectedAsrKeywords": ["标准精洗", "冲刷", "细节清洁"]
+    },
+    {
+      "clipId": "wc-main-04-foam",
+      "sourceKey": "wide-foam",
+      "startSeconds": 8.0,
+      "cropAnchor": "right",
+      "expectedMarketingRole": "process",
+      "expectedVisualSummary": "工作人员向车身均匀喷洒泡沫，泡沫逐步覆盖车漆",
+      "ttsText": "先用泡沫软化车身表面的灰尘和污渍。",
+      "expectedAsrKeywords": ["泡沫", "软化", "灰尘和污渍"]
+    },
+    {
+      "clipId": "wc-main-05-rinse",
+      "sourceKey": "rinse",
+      "startSeconds": 10.0,
+      "expectedMarketingRole": "process",
+      "expectedVisualSummary": "高压水流持续冲洗白色车身并带走泡沫",
+      "ttsText": "再用高压水流冲净泡沫，减少泥沙残留。",
+      "expectedAsrKeywords": ["高压水流", "冲净泡沫", "泥沙残留"]
+    },
+    {
+      "clipId": "wc-main-06-wheel",
+      "sourceKey": "wheel",
+      "startSeconds": 5.5,
+      "expectedMarketingRole": "detail",
+      "expectedVisualSummary": "近景展示轮毂与轮胎边缘被反复刷洗",
+      "ttsText": "轮毂和轮胎边缘，也要逐处刷洗。",
+      "expectedAsrKeywords": ["轮毂", "轮胎边缘", "逐处刷洗"]
+    },
+    {
+      "clipId": "wc-main-07-interior",
+      "sourceKey": "interior",
+      "startSeconds": 2.0,
+      "expectedMarketingRole": "detail",
+      "expectedVisualSummary": "工作人员使用吸尘设备清洁汽车中控与座椅缝隙",
+      "ttsText": "玻璃和内饰细节，同样认真处理。",
+      "expectedAsrKeywords": ["玻璃", "内饰细节", "认真处理"]
+    },
+    {
+      "clipId": "wc-main-08-result",
+      "sourceKey": "black-polish",
+      "startSeconds": 8.0,
+      "expectedMarketingRole": "result",
+      "expectedVisualSummary": "抛光机掠过黑色车漆，灯带倒影清晰透亮",
+      "ttsText": "清洁完成后，车身恢复干净透亮的质感。",
+      "expectedAsrKeywords": ["清洁完成", "车身恢复", "干净透亮"]
+    },
+    {
+      "clipId": "wc-main-09-transition",
+      "sourceKey": "pov",
+      "startSeconds": 1.5,
+      "expectedMarketingRole": "transition",
+      "expectedVisualSummary": "车内视角透过被水流覆盖的前挡风玻璃观看洗车过程",
+      "ttsText": "接下来，一起看看清洁后的整体效果。",
+      "expectedAsrKeywords": ["接下来", "清洁后", "整体效果"]
+    },
+    {
+      "clipId": "wc-main-10-offer",
+      "sourceKey": "white-polish",
+      "startSeconds": 1.0,
+      "expectedMarketingRole": "offer",
+      "expectedVisualSummary": "白色车漆正在抛光，画面上显示测试数据新客体验价十九块九",
+      "ttsText": "测试门店新客体验价十九块九，本素材仅用于系统测试。",
+      "expectedAsrKeywords": ["新客体验价", "十九块九", "系统测试"],
+      "testCard": ["测试数据", "新客体验价 19.9"]
+    },
+    {
+      "clipId": "wc-main-11-cta",
+      "sourceKey": "black-polish",
+      "startSeconds": 17.0,
+      "expectedMarketingRole": "cta",
+      "expectedVisualSummary": "干净有光泽的黑色车漆作为背景，画面显示测试数据点击导航到店体验",
+      "ttsText": "点击导航到店体验，本素材仅用于系统测试。",
+      "expectedAsrKeywords": ["点击导航", "到店体验", "系统测试"],
+      "testCard": ["测试数据", "点击导航  到店体验"]
+    }
+  ],
+  "edgeLongSpeech": {
+    "clipId": "wc-edge-05-long-speech",
+    "sourceKey": "wide-foam",
+    "startSeconds": 22.0,
+    "ttsText": "先用泡沫软化车身污渍，再用高压水流冲净残留。轮毂、玻璃和内饰细节，也会逐处认真处理。",
+    "expectedAsrKeywords": ["泡沫软化", "高压水流", "轮毂", "玻璃", "内饰细节"]
+  }
+}

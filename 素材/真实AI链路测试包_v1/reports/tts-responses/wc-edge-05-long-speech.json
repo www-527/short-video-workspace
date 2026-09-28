@@ -1,0 +1,12 @@
+﻿{
+    "ok":  true,
+    "audioPath":  "C:\\Users\\Administrator\\Documents\\video agent\\ai-video-agent\\local tts\\yzylauncher-win-Indextts20-260616\\win-unpacked\\python\\outputs\\api\\audio_52567b2da9f14f2f99be7981adc78478.wav",
+    "format":  "wav",
+    "audio":  {
+                  "id":  "audio_52567b2da9f14f2f99be7981adc78478",
+                  "url":  "/api/audio/audio_52567b2da9f14f2f99be7981adc78478",
+                  "format":  "wav",
+                  "mimeType":  "audio/wav",
+                  "size":  411692
+              }
+}
